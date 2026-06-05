@@ -1,0 +1,61 @@
+:host {
+	display: block;
+	min-height: 100vh;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(180deg, #f5f8fc 0%, #eef3f9 100%);
+	color: #1c2a39;
+}
+
+.app-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1.5rem;
+	background: #10345a;
+	color: #fff;
+}
+
+.brand {
+	font-size: 1.1rem;
+	font-weight: 700;
+	letter-spacing: 0.02em;
+}
+
+.nav-links {
+	display: flex;
+	gap: 0.75rem;
+}
+
+.nav-links a {
+	color: #dbe9f8;
+	text-decoration: none;
+	padding: 0.35rem 0.6rem;
+	border-radius: 0.4rem;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+	background: #1f5a93;
+	color: #fff;
+}
+
+.app-main {
+	max-width: 900px;
+	margin: 1.25rem auto;
+	padding: 0 1rem 1.25rem;
+}
+
+.health-banner {
+	background: #fff;
+	border: 1px solid #d4e0ee;
+	border-radius: 0.6rem;
+	padding: 0.75rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.route-container {
+	background: #fff;
+	border: 1px solid #d4e0ee;
+	border-radius: 0.8rem;
+	padding: 1rem;
+}

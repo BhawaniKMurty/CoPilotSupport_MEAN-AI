@@ -1,2 +1,17 @@
-<h1>\u25C6 Support Co-pilot</h1>
-<p>Backend status: {{ health() }}</p>
+<header class="app-header">
+	<div class="brand">Support Co-pilot</div>
+	<nav class="nav-links">
+		<a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+		<a routerLink="/login" routerLinkActive="active">Login</a>
+	</nav>
+</header>
+
+<main class="app-main">
+	<section class="health-banner">
+		<strong>Backend:</strong> {{ health() }}
+	</section>
+
+	<section class="route-container">
+		<router-outlet></router-outlet>
+	</section>
+</main>
